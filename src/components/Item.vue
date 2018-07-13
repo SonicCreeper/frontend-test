@@ -16,7 +16,7 @@
           </div>
           <div class="product_tags hidden-sm">
               <p>Могут понадобиться:</p>
-              <span v-for='link in assocProducts.split(";\n")'>
+              <span v-for='link in assocProducts.split("\n")'>
                   <a href="#" class="url--link">{{link.slice(0, link.length-1)}}; </a>
               </span>
 
