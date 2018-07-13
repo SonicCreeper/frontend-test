@@ -135,8 +135,5 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
-[v-cloak] {
-	visibility: hidden;
-}
+<style>
 </style>
